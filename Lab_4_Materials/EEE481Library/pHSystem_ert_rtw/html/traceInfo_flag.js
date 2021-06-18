@@ -1,0 +1,54 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["pHSystem.c:185c43"]=1;
+    this.traceFlag["pHSystem.c:199c56"]=1;
+    this.traceFlag["pHSystem.c:207c78"]=1;
+    this.traceFlag["pHSystem.c:208c36"]=1;
+    this.traceFlag["pHSystem.c:295c22"]=1;
+    this.traceFlag["pHSystem.c:301c17"]=1;
+    this.traceFlag["pHSystem.c:301c23"]=1;
+    this.traceFlag["pHSystem.c:301c35"]=1;
+    this.traceFlag["pHSystem.c:301c55"]=1;
+    this.traceFlag["pHSystem.c:302c25"]=1;
+    this.traceFlag["pHSystem.c:303c25"]=1;
+    this.traceFlag["pHSystem.c:304c23"]=1;
+    this.traceFlag["pHSystem.c:304c38"]=1;
+    this.traceFlag["pHSystem.c:304c47"]=1;
+    this.traceFlag["pHSystem.c:304c52"]=1;
+    this.traceFlag["pHSystem.c:304c60"]=1;
+    this.traceFlag["pHSystem.c:304c65"]=1;
+    this.traceFlag["pHSystem.c:305c15"]=1;
+    this.traceFlag["pHSystem.c:308c17"]=1;
+    this.traceFlag["pHSystem.c:314c80"]=1;
+    this.traceFlag["pHSystem.c:315c38"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["pHSystem.c:185"]=1;
+    this.lineTraceFlag["pHSystem.c:196"]=1;
+    this.lineTraceFlag["pHSystem.c:199"]=1;
+    this.lineTraceFlag["pHSystem.c:200"]=1;
+    this.lineTraceFlag["pHSystem.c:204"]=1;
+    this.lineTraceFlag["pHSystem.c:207"]=1;
+    this.lineTraceFlag["pHSystem.c:208"]=1;
+    this.lineTraceFlag["pHSystem.c:211"]=1;
+    this.lineTraceFlag["pHSystem.c:215"]=1;
+    this.lineTraceFlag["pHSystem.c:294"]=1;
+    this.lineTraceFlag["pHSystem.c:295"]=1;
+    this.lineTraceFlag["pHSystem.c:296"]=1;
+    this.lineTraceFlag["pHSystem.c:298"]=1;
+    this.lineTraceFlag["pHSystem.c:301"]=1;
+    this.lineTraceFlag["pHSystem.c:302"]=1;
+    this.lineTraceFlag["pHSystem.c:303"]=1;
+    this.lineTraceFlag["pHSystem.c:304"]=1;
+    this.lineTraceFlag["pHSystem.c:305"]=1;
+    this.lineTraceFlag["pHSystem.c:306"]=1;
+    this.lineTraceFlag["pHSystem.c:308"]=1;
+    this.lineTraceFlag["pHSystem.c:309"]=1;
+    this.lineTraceFlag["pHSystem.c:313"]=1;
+    this.lineTraceFlag["pHSystem.c:314"]=1;
+    this.lineTraceFlag["pHSystem.c:315"]=1;
+    this.lineTraceFlag["pHSystem.c:320"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();

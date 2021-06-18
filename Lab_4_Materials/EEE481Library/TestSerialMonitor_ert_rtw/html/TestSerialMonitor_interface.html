@@ -1,0 +1,624 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript">function rtwTableShrink(o) {var t = o.nextSibling;if (t.nodeType != 1) {t = t.nextSibling;}if (t.style.display == "none") {t.style.display = "";o.innerHTML = "[-]"} else {t.style.display = "none";o.innerHTML = "[+] ... "}}</script><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+Code Interface Report for TestSerialMonitor
+</title>
+
+</head>
+<body ONLOAD="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdCodeInterface'); else local_onload();}} catch(err) {};">
+<h1>
+Code Interface Report for TestSerialMonitor
+</h1>
+<h3>
+Table of Contents
+</h3>
+<ul>
+<li>
+<a href="#sec_Entry_Point_Functions">
+Entry Point Functions
+</a>
+
+</li>
+<li>
+<a href="#sec_Inports">
+Inports
+</a>
+
+</li>
+<li>
+<a href="#sec_Outports">
+Outports
+</a>
+
+</li>
+<li>
+<a href="#sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</li>
+<li>
+<a href="#sec_Data_Stores">
+Data Stores
+</a>
+
+</li>
+
+</ul>
+<h3>
+<a name="sec_Entry_Point_Functions">
+Entry Point Functions
+</a>
+
+</h3>
+<p>
+Function: <a href="TestSerialMonitor_c.html#fcn_TestSerialMonitor_initialize">TestSerialMonitor_initialize</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void TestSerialMonitor_initialize(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Initialization entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="TestSerialMonitor_h.html">TestSerialMonitor.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="TestSerialMonitor_c.html#fcn_TestSerialMonitor_step">TestSerialMonitor_step</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void TestSerialMonitor_step(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Output entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called periodically, every 0.01 seconds
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="TestSerialMonitor_h.html">TestSerialMonitor.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="TestSerialMonitor_c.html#fcn_TestSerialMonitor_terminate">TestSerialMonitor_terminate</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void TestSerialMonitor_terminate(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Termination entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="TestSerialMonitor_h.html">TestSerialMonitor.h</a>
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Inports">
+Inports
+</a>
+
+</h3>
+<p>
+No Inports in model.
+</p>
+<h3>
+<a name="sec_Outports">
+Outports
+</a>
+
+</h3>
+<p>
+No Outports in model.
+</p>
+<h3>
+<a name="sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Parameter Source
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:2')" name="code2model" class="code2model">&lt;Root&gt;/Step</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step_Time
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:2')" name="code2model" class="code2model">&lt;Root&gt;/Step</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step_Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:2')" name="code2model" class="code2model">&lt;Root&gt;/Step</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step_YFinal
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:3')" name="code2model" class="code2model">&lt;Root&gt;/Step1</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step1_Time
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:3')" name="code2model" class="code2model">&lt;Root&gt;/Step1</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step1_Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:3')" name="code2model" class="code2model">&lt;Root&gt;/Step1</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step1_YFinal
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:5')" name="code2model" class="code2model">&lt;Root&gt;/Step3</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step3_Time
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:5')" name="code2model" class="code2model">&lt;Root&gt;/Step3</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step3_Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:5')" name="code2model" class="code2model">&lt;Root&gt;/Step3</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step3_YFinal
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:6')" name="code2model" class="code2model">&lt;Root&gt;/Step4</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step4_Time
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:6')" name="code2model" class="code2model">&lt;Root&gt;/Step4</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step4_Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:6')" name="code2model" class="code2model">&lt;Root&gt;/Step4</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step4_YFinal
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:8')" name="code2model" class="code2model">&lt;Root&gt;/Step6</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step6_Time
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:8')" name="code2model" class="code2model">&lt;Root&gt;/Step6</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step6_Y0
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:8')" name="code2model" class="code2model">&lt;Root&gt;/Step6</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.Step6_YFinal
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:13')" name="code2model" class="code2model">&lt;Root&gt;/Unit Delay2</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.UnitDelay2_InitialCondition
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:12')" name="code2model" class="code2model">&lt;Root&gt;/Unit Delay1</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.UnitDelay1_InitialCondition
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:11')" name="code2model" class="code2model">&lt;Root&gt;/Unit Delay</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.UnitDelay_InitialCondition
+</td>
+<td width="21%" align="left" valign="top">
+real_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:1:90')" name="code2model" class="code2model">&lt;S1&gt;/Unit Delay</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.UnitDelay_InitialCondition_h
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:1:80')" name="code2model" class="code2model">&lt;S1&gt;/S-Function</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.SFunction_P1
+</td>
+<td width="21%" align="left" valign="top">
+int8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('TestSerialMonitor:1:80')" name="code2model" class="code2model">&lt;S1&gt;/S-Function</a>
+</td>
+<td width="26%" align="left" valign="top">
+TestSerialMonitor_P.SFunction_P2
+</td>
+<td width="21%" align="left" valign="top">
+int8_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Data_Stores">
+Data Stores
+</a>
+
+</h3>
+<p>
+No data stores in the model; note that this report lists only data stores with non-auto storage class and global data stores
+</p>
+
+</body>
+
+</html>
